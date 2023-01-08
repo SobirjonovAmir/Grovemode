@@ -1,0 +1,292 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1370px;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+}
+header .menu {
+  display: none;
+}
+header .menu .menu_item {
+  width: 30px;
+  height: 4px;
+  background: #000;
+  margin-bottom: 4px;
+  border-radius: 10px;
+}
+header .shop {
+  display: flex;
+  gap: 24px;
+}
+header .cart {
+  text-align: center;
+}
+header a {
+  font-weight: 700;
+  font-size: 13px;
+  letter-spacing: 1.4px;
+  color: black;
+}
+
+.promo {
+  background-image: url(../img/promobg.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 80px;
+}
+.promo .container {
+  text-align: center;
+  color: white;
+}
+.promo .container h1 {
+  font-weight: 400;
+  font-size: 43px;
+  margin-bottom: 12px;
+}
+.promo .container p {
+  font-weight: 400;
+  font-size: 15px;
+  margin-bottom: 24px;
+}
+.promo .container a {
+  color: white;
+  font-size: 13px;
+  display: flex;
+  justify-content: center;
+}
+
+.design .container .text {
+  text-align: center;
+  margin-bottom: 80px;
+}
+.design .container .text h2 {
+  font-weight: 700;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+.design .container .text p {
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 0.8px;
+  margin-bottom: 25px;
+  color: #A0A0A0;
+}
+.design .container .text a {
+  color: black;
+}
+.design .design_box {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  text-align: center;
+  margin-bottom: 100px;
+}
+.design .design_box img {
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 45px;
+}
+.design .design_box h3 {
+  font-weight: 700;
+  font-size: 27px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+.design .design_box a {
+  font-weight: 500;
+  font-size: 13px;
+  text-align: center;
+  letter-spacing: 1.4px;
+  color: #000000;
+}
+
+.products .container {
+  margin-bottom: 90px;
+}
+.products .container .text {
+  text-align: center;
+}
+.products .container .text h2 {
+  font-weight: 700;
+  font-size: 33px;
+  margin-bottom: 15px;
+}
+.products .container .text p {
+  font-weight: 400;
+  font-size: 15px;
+  color: #A0A0A0;
+  margin-bottom: 50px;
+}
+.products .container .square {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 25px;
+}
+.products .container .square .square_item {
+  width: 7px;
+  height: 7px;
+  background-color: #000000;
+}
+.products .container .products_box {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 25px;
+}
+.products .container .products_box img {
+  width: 100%;
+}
+.products .container .products_box .about_product {
+  margin-top: 20px;
+  line-height: 21px;
+  text-align: left;
+  font-weight: 400;
+  font-size: 13px;
+  color: #A0A0A0;
+}
+
+.inspiration {
+  background-image: url(../img/inspirationbg.png);
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 110px;
+}
+.inspiration .container {
+  color: white;
+  text-align: center;
+}
+.inspiration .container h2 {
+  font-weight: 500;
+  font-size: 66px;
+  margin-bottom: 15px;
+}
+.inspiration .container p {
+  font-weight: 400;
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+.inspiration .container a {
+  font-weight: 400;
+  font-size: 13px;
+  color: #FFFFFF;
+}
+
+.made .container .text {
+  text-align: center;
+}
+.made .container .text h2 {
+  font-weight: 500;
+  font-size: 34px;
+  margin-bottom: 20px;
+}
+.made .container .text p {
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.8px;
+  color: #A0A0A0;
+  margin-bottom: 20px;
+}
+.made .container img {
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  height: 500px;
+}
+
+.team {
+  margin-bottom: 100px;
+}
+.team .container {
+  margin-bottom: 100px;
+}
+.team .container .text {
+  text-align: center;
+}
+.team .container .text h2 {
+  font-weight: 500;
+  font-size: 34px;
+  margin-bottom: 20px;
+}
+.team .container .text p {
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.8px;
+  color: #A0A0A0;
+  margin-bottom: 80px;
+}
+.team .container .team_members {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 20px;
+}
+.team .container .team_members img {
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.team .our_story {
+  text-align: center;
+}
+.team .our_story h2 {
+  font-weight: 400;
+  font-size: 34px;
+  margin-bottom: 40px;
+}
+.team .our_story a {
+  font-weight: 400;
+  font-size: 13px;
+  letter-spacing: 1.4px;
+  color: #000000;
+}
+
+.inspires {
+  padding: 0 20px;
+}
+.inspires .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #9AA8B1;
+  text-align: center;
+  height: 400px;
+  margin-bottom: 40px;
+  color: #FFFFFF;
+}
+.inspires .container h2 {
+  margin-top: 25px;
+  margin-bottom: 20px;
+  font-weight: 500;
+  font-size: 43px;
+}
+.inspires .container p {
+  font-size: 14px;
+}

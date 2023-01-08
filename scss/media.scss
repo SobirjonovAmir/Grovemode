@@ -1,0 +1,173 @@
+@media (max-width: 576px) {
+    .container {
+        padding: 10px;
+    }
+    header {
+        .shop {
+        display: none;
+        }
+        .menu {
+        display: flex;
+        }
+    } 
+    .promo {
+        height: 350px; 
+        margin-bottom: 40px;
+        .container {
+         h1 {
+            font-size: 30px;
+            margin-bottom: 10px;
+        }
+        p {
+            font-weight: 400;
+            font-size: 15px;
+            margin-bottom: 20px;
+        }
+        a {
+            color: white;
+            font-size: 13px;
+            display: flex;
+            justify-content: center;
+        }   
+    }
+    }
+    .design {
+        .container {
+            .text {
+            text-align: center;
+            h2 {
+                font-size: 30px;
+                margin-bottom: 20px;
+            }
+            p {
+                font-size: 12px;
+                margin-bottom: 25px;
+            }
+            margin-bottom: 40px;
+            }
+        } 
+    .design_box {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, 1fr);
+        gap: 10px;
+        margin-bottom: 50px;
+        img {
+            width: 100%;
+            margin-bottom: 15px;
+            margin-top: 30px;
+        }
+        h3 {
+            font-size: 20px;
+            margin-bottom: 5px;
+        }
+        a {
+            font-size: 13px;
+            margin-bottom: 20px;
+        }
+        }
+    }
+    .products {
+        .container {
+        margin-bottom: 50px;
+        .text {
+            h2 {
+                font-size: 28px;
+                margin-bottom: 15px;
+            }
+            p {
+                font-size: 14px;
+                margin-bottom: 20px;
+            }
+        }
+        .square {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 7px;  
+            margin-bottom: 20px;
+        }
+        .products_box {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px;
+            .about_product {
+                margin-top: 10px;
+                margin-bottom: 20px;
+                line-height: 21px;
+                font-size: 13px;
+            }
+
+        }
+    }
+    }
+    .inspiration {
+        height: 400px;
+        margin-bottom: 70px;
+        .container {
+            h2 {
+                font-size: 40px;
+                margin-bottom: 10px;
+            }
+            p {
+                margin-bottom: 20px;
+            }
+        }
+    }
+    .made {
+        .container {
+            .text {
+                h2 {
+                font-size: 30px;
+                margin-bottom: 20px;
+                }
+                p {
+                font-size: 14px;
+                margin-bottom: 20px;
+                } 
+            }
+            img {
+            height: 550px;
+            object-fit: cover;
+            height: 400px;
+            }     
+        }
+    }
+    .team {
+        .container {
+            .text {
+                h2 {
+                    margin-top: 15px;
+                    font-size: 30px;
+                }
+                p {
+                    font-size: 14px;
+                    margin-bottom: 40px;
+                }
+            }
+            .team_members {
+                grid-template-columns: repeat(3, 1fr);
+                gap: 10px;
+            }
+            margin-bottom: 60px;
+        }
+        .our_story {
+            h2 {
+                font-size: 30px;
+                margin-bottom: 15px;
+            }
+            margin-bottom: 50px;
+        }
+    }
+    .inspires {
+        padding: 0 10px;
+        .container {
+            height: 250px;
+            h2 {
+                margin-top: 10px;
+                margin-bottom: 10px;
+                font-size: 30px;
+            }
+        }
+    }
+}
